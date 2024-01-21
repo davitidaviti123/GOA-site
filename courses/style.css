@@ -1,0 +1,41 @@
+nav {
+    background-color: #1a7c0d;
+    overflow: hidden;
+  }
+
+  nav a {
+    float: left;
+    display: block;
+    color: rgb(27, 37, 7);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: black;
+    font-size: 50px;
+  }
+
+  nav a:hover {
+    background-color: #42e242;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: black;
+    border-radius: 1%;
+  }
+body {
+    background-color: rgb(15, 114, 20);
+}
+.price {
+  text-decoration: line-through;
+  font-size: 14px;
+  color: red;
+}
+#pcourse {
+  color: #42e242;
+}
+h2 {
+  color: rgb(19, 162, 228);
+}
+.newprice {
+  color: rgb(0, 255, 0);
+}

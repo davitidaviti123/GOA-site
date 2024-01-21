@@ -1,0 +1,76 @@
+form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+body {
+    background-color: rgb(44, 115, 44);
+}
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+#submit:hover{
+    background-color: #4CAF50;
+}
+#submit{
+    background-color: rgb(63, 196, 63);
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+nav {
+    background-color: #1a7c0d;
+    overflow: hidden;
+  }
+
+  nav a {
+    float: left;
+    display: block;
+    color: rgb(27, 37, 7);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: black;
+    font-size: 50px;
+  }
+
+  nav a:hover {
+    background-color: #42e242;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: black;
+    border-radius: 1%;
+  }
+body {
+    background-color: rgb(15, 114, 20);
+}
